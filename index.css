@@ -1,0 +1,73 @@
+#main {
+  font-size: 22px;
+}
+.head {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+.head1 {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.section1 {
+  background-color: #eeeeee;
+}
+#img-div {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.img-caption-container {
+  display: block;
+  margin-top: 4px;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  margin-left: 70px;
+}
+
+#tribute-info {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  font-size: 25px;
+  margin-left: 400px;
+}
+
+.here {
+  margin-left: 550px;
+  font-size: 25px;
+  padding-top: 18px;
+  margin-top: 20px;
+}
+.info {
+  background-color: #eeeeee;
+  font-size: 17px;
+}
+.paragraph {
+  display: block;
+  font-style: italic;
+  font-size: 22px;
+  margin-left: 420px;
+}
+.italic {
+  display: block;
+  font-style: italic;
+  font-size: 22px;
+  margin-left: 410px;
+  width: 50%;
+}
+.block {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-left: 300px;
+}
