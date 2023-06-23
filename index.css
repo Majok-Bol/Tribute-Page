@@ -21,7 +21,6 @@
     display:block;
     max-width:100%;
     height:auto;
-    margin-left: auto;
     margin-right: auto;
     width: 65%;
     display:block;
@@ -41,15 +40,14 @@
     margin:0 auto;
     width:55%;
     font-size:25px;
-    margin-left:400px
   
   }
   
   .here {
-    margin-left:550px;
     font-size:25px;
     padding-top:18px;
     margin-top:20px;
+    text-align: center;
   }
   .info {
     background-color:#EEEEEE;
@@ -59,23 +57,54 @@
     display:block;
     font-style:italic;
     font-size:22px;
-    margin-left:420px;
+    text-align: center;
   }
   .italic {
     display:block;
     font-style:italic;
     font-size:22px;
-    margin-left:410px;
     width:50%;
+    text-align: center;
+    margin:auto;
   }
   .block {
     font-size:25px;
     color:black;
     font-weight:bold;
-    margin-left:300px;
+    text-align: center;
   }
   #image {
     max-width:100%;
     display:block;
     height:auto;
   }
+  @media (max-width: 768px) {
+    .here {
+      font-size:25px;
+      padding-top:18px;
+    }
+    .info {
+      background-color:#EEEEEE;
+      font-size:17px;
+    }
+    .paragraph {
+      display:block;
+      font-style:italic;
+      font-size:22px;
+      text-align: center;
+    }
+    .italic {
+      display:block;
+      font-style:italic;
+      font-size:22px;
+      width:50%;
+    }
+    .block {
+      font-size:25px;
+      color:black;
+      font-weight:bold;
+
+    }
+ 
+  }
+  
