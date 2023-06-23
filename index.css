@@ -105,6 +105,10 @@
       font-weight:bold;
 
     }
+    .intro-section {
+      display:block;
+      margin:auto;
+    }
  
   }
   
